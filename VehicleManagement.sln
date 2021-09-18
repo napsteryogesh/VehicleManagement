@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleManagement", "VehicleManagement\VehicleManagement.csproj", "{189BEEC7-A3E8-48A9-93DF-DBF024905EE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleManagement", "VehicleManagement\VehicleManagement.csproj", "{189BEEC7-A3E8-48A9-93DF-DBF024905EE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleService", "VehicleService\VehicleService.csproj", "{4CDF678D-2013-46F4-96D6-BF52DDB134B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleService", "VehicleService\VehicleService.csproj", "{4CDF678D-2013-46F4-96D6-BF52DDB134B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD4E8752-E591-405C-A4A4-7D8AF7852131}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+		..\VehilceManagement.postman_collection.json = ..\VehilceManagement.postman_collection.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleServiceTest", "VehicleServiceTest\VehicleServiceTest.csproj", "{509B79AF-96F0-4C2F-9570-4CBE8ADE7A68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,10 @@ Global
 		{4CDF678D-2013-46F4-96D6-BF52DDB134B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CDF678D-2013-46F4-96D6-BF52DDB134B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CDF678D-2013-46F4-96D6-BF52DDB134B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{509B79AF-96F0-4C2F-9570-4CBE8ADE7A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{509B79AF-96F0-4C2F-9570-4CBE8ADE7A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{509B79AF-96F0-4C2F-9570-4CBE8ADE7A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{509B79AF-96F0-4C2F-9570-4CBE8ADE7A68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
